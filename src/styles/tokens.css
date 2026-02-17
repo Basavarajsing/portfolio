@@ -1,0 +1,26 @@
+:root {
+  --bg: #0b0f17;
+  --panel: #0f1624;
+  --text: #e6edf6;
+  --muted: #9aa7b6;
+  --border: rgba(255, 255, 255, 0.08);
+
+  /* Right-side 50% background */
+  --bgLight: #ffffff;
+  --panelLight: #ffffff;
+  --textDark: #0b1220;
+  --mutedDark: #4b5563;
+  --borderLight: rgba(2, 6, 23, 0.1);
+
+  /* Single accent (professional) */
+  --accent: #2563eb;
+
+  /* Subtle, professional shadow */
+  --shadow: 0 10px 24px rgba(2, 6, 23, 0.22);
+
+  --radius: 14px;
+  --radiusSm: 10px;
+
+  --container: 1040px;
+}
+
