@@ -405,13 +405,27 @@ img {
 }
 
 .textLink {
-  color: var(--text);
+  color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 1px solid currentColor;
+  text-underline-offset: 2px;
+  font-weight: 600;
 }
 
 .textLink:hover {
-  border-bottom-color: rgba(255, 255, 255, 0.35);
+  filter: brightness(1.08);
+}
+
+.textLink.linkGithub {
+  color: var(--bgLight);
+}
+
+.textLink.linkLiveDemo {
+  color: var(--accent);
+}
+
+.textLink.linkOther {
+  color: var(--muted);
 }
 
 /* Contact form */

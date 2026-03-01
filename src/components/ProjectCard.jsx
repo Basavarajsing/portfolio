@@ -1,3 +1,23 @@
+import Badge from "./Badge";
+
+function getProjectLinkClass(label = "") {
+  const normalized = label.toLowerCase();
+
+  if (normalized.includes("github")) {
+    return "linkGithub";
+  }
+
+  if (
+    normalized.includes("live") ||
+    normalized.includes("demo") ||
+    normalized.includes("vercel")
+  ) {
+    return "linkLiveDemo";
+  }
+
+  return "linkOther";
+}
+
 export default function ProjectCard({ project }) {
   return (
     <article className="card projectCard">
@@ -6,7 +26,7 @@ export default function ProjectCard({ project }) {
           <h3 className="h3">{project.name}</h3>
           <p className="muted">{project.tagline}</p>
         </div>
-       
+        {project.featured ? <Badge>Featured</Badge> : null}
       </div>
 
       {project.impact?.length ? (
@@ -31,7 +51,7 @@ export default function ProjectCard({ project }) {
           .map((l) => (
             <a
               key={l.label}
-              className="textLink"
+              className={`textLink ${getProjectLinkClass(l.label)}`}
               href={l.url}
               target="_blank"
               rel="noreferrer"
