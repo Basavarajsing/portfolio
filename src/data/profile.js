@@ -112,7 +112,7 @@ tech: ["Python", "Pandas", "Machine Learning"],
 links: [{ label: "No public link", url: "#" }],
 isPrivate: true
 }
-]
+],
 
    
     
