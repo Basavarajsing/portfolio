@@ -56,20 +56,6 @@ export const profile = {
   },
 
  projects: [
-{
-name: "InfraSight - Clarity for Your Infrastructure",
-tagline: "Full-stack observability dashboard with real-time log simulation.",
-impact: [
-"Developed a high-performance React dashboard that streamlined log analysis through real-time data visualization and advanced filtering.",
-"Implemented localized data persistence strategies to achieve instantaneous load times and 100% data retention for returning users without requiring login.",
-"Engineered an intuitive add-search-filter architecture to optimize workflow for monitoring runtime instability and failure spikes."
-],
-tech: ["React", "TypeScript", "Modern CSS (Sass style)", "Recharts", "Next.js (API Router)", "Tailwind"],
-links: [
-{ label: "GitHub", url: "https://github.com/Basavarajsing/InfraSight" },
-{ label: "Live demo", url: "https://infra-sight.vercel.app/" }
-]
-},
 
 {
 name: "MultiMode — Human Emotion Detection (Demo)",
