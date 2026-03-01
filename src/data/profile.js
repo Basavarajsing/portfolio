@@ -88,15 +88,16 @@ links: [
 },
 
 {
-name: "MediAssist — Medicine Assist Companion",
-tagline: "Dataset-driven symptom → medicine suggestion (learning project).",
+name: "InfraSight-clarity for your infrastructure",
+tagline: "Detects system logs & determines system health.",
 impact: [
-"Performed data preprocessing and feature mapping on structured medical datasets.",
-"Explored supervised ML workflows with attention to safer, conservative suggestions."
+"Developed a high performance React dashboard that streamlined log analysis through real-time data visualization and advanced filtering.",
+"Implemented localized data persistence strategies to achieve instantaneous load times and 100% data retention for returning users without requiring login."
 ],
-tech: ["Python", "Pandas", "Machine Learning"],
-links: [{ label: "No public link", url: "#" }],
-isPrivate: true
+tech: ["React", "Recharts", "Tailwind","Next.js"],
+links: [{ label: "GitHub", url: "https://github.com/Basavarajsing/InfraSight" },
+        { label: "Live Demo",ur:"https://infra-sight.vercel.app"}],
+
 }
 ],
 
