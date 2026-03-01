@@ -56,6 +56,23 @@ export const profile = {
   },
 
   projects: [
+     {
+      name: "InfraSight-Clarity for your infrastruture",
+      tagline: "Expense tracking + analytics dashboard with clean UX and persistence.",
+      impact: [
+           Developed a high-performance React dashboard that streamlined expense analysis through real-time data visualization and advanced filtering, improving the speed of manual spending audits.,
+
+Implemented localized data persistence strategies to achieve instantaneous load times and 100% data retention for returning users without requiring a login sequence.,
+
+Engineered an intuitive add-search-filter architecture that reduced user input steps and optimized the workflow for tracking complex spending patterns,
+      ],
+      tech: ["React", "TypeScript","Modern CSS(SaaS style),"Recharts","Next.js(API router),"Tailwind"],
+      links: [
+        { label: "GitHub", url: "https://github.com/Basavarajsing/InfraSight" },
+        { label: "Live demo", url: "https://infra-sight.vercel.app/" }
+      ]
+    },
+
     {
       name: "MultiMode — Human Emotion Detection (Demo)",
       tagline:
