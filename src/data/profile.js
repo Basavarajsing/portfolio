@@ -55,65 +55,69 @@ export const profile = {
     ]
   },
 
-  projects: [
-     {
-      name: "InfraSight-Clarity for your infrastruture",
-      tagline: "Expense tracking + analytics dashboard with clean UX and persistence.",
-      impact: [
-           Developed a high-performance React dashboard that streamlined expense analysis through real-time data visualization and advanced filtering, improving the speed of manual spending audits.,
+ projects: [
+{
+name: "InfraSight - Clarity for Your Infrastructure",
+tagline: "Full-stack observability dashboard with real-time log simulation.",
+impact: [
+"Developed a high-performance React dashboard that streamlined log analysis through real-time data visualization and advanced filtering.",
+"Implemented localized data persistence strategies to achieve instantaneous load times and 100% data retention for returning users without requiring login.",
+"Engineered an intuitive add-search-filter architecture to optimize workflow for monitoring runtime instability and failure spikes."
+],
+tech: ["React", "TypeScript", "Modern CSS (Sass style)", "Recharts", "Next.js (API Router)", "Tailwind"],
+links: [
+{ label: "GitHub", url: "https://github.com/Basavarajsing/InfraSight" },
+{ label: "Live demo", url: "https://infra-sight.vercel.app/" }
+]
+},
 
-Implemented localized data persistence strategies to achieve instantaneous load times and 100% data retention for returning users without requiring a login sequence.,
+{
+name: "MultiMode — Human Emotion Detection (Demo)",
+tagline: "Multimodal emotion detection demo (face + audio) with dynamic switching UI.",
+impact: [
+"Designed a clear demo flow that switches between visual/audio inputs based on input quality.",
+"Built a confidence-style results panel to communicate predictions and model reasoning intuitively.",
+"Focused on fast load, responsive UI, and clean component structure for presentation-ready delivery."
+],
+tech: ["React", "JavaScript", "UI/UX"],
+links: [
+{ label: "GitHub", url: "https://github.com/Basavarajsing/emotion-detection" },
+{ label: "Live demo", url: "https://multimode2025.vercel.app/" }
+]
+},
 
-Engineered an intuitive add-search-filter architecture that reduced user input steps and optimized the workflow for tracking complex spending patterns,
-      ],
-      tech: ["React", "TypeScript","Modern CSS(SaaS style),"Recharts","Next.js(API router),"Tailwind"],
-      links: [
-        { label: "GitHub", url: "https://github.com/Basavarajsing/InfraSight" },
-        { label: "Live demo", url: "https://infra-sight.vercel.app/" }
-      ]
-    },
+{
+name: "Expense Tracker & Analyzer",
+tagline: "Expense tracking + analytics dashboard with clean UX and persistence.",
+impact: [
+"Implemented add/search/filter flows and a simple analytics view to understand spending patterns.",
+"Persisted user data locally for a smooth returning-user experience (no login required).",
+"Designed a straightforward UI to reduce manual tracking effort and make entries quick."
+],
+tech: ["React", "Vite", "JavaScript"],
+links: [
+{ label: "GitHub", url: "https://github.com/Basavarajsing/Expense_Tracker" },
+{ label: "Live demo", url: "https://bbbtextr.vercel.app/" }
+]
+},
 
-    {
-      name: "MultiMode — Human Emotion Detection (Demo)",
-      tagline:
-        "Multimodal emotion detection demo (face + audio) with dynamic switching UI.",
-      impact: [
-        "Designed a clear demo flow that switches between visual/audio inputs based on input quality.",
-        "Built a confidence-style results panel to communicate predictions and model reasoning intuitively.",
-        "Focused on fast load, responsive UI, and clean component structure for presentation-ready delivery."
-      ],
-      tech: ["React", "JavaScript", "UI/UX"],
-      links: [
-        { label: "GitHub", url: "https://github.com/Basavarajsing/emotion-detection" },
-        { label: "Live demo", url: "https://multimode2025.vercel.app/" }
-      ]
-    },
-    {
-      name: "Expense Tracker & Analyzer",
-      tagline: "Expense tracking + analytics dashboard with clean UX and persistence.",
-      impact: [
-        "Implemented add/search/filter flows and a simple analytics view to understand spending patterns.",
-        "Persisted user data locally for a smooth returning-user experience (no login required).",
-        "Designed a straightforward UI to reduce manual tracking effort and make entries quick."
-      ],
-      tech: ["React", "Vite", "JavaScript"],
-      links: [
-        { label: "GitHub", url: "https://github.com/Basavarajsing/Expense_Tracker" },
-        { label: "Live demo", url: "https://bbbtextr.vercel.app/" }
-      ]
-    },
-    {
-      name: "MediAssist — Medicine Assist Companion",
-      tagline: "Dataset-driven symptom → medicine suggestion (learning project).",
-      impact: [
-        "Performed data preprocessing and feature mapping on structured medical datasets.",
-        "Explored supervised ML workflows with attention to safer, conservative suggestions."
-      ],
-      tech: ["Python", "Pandas", "Machine Learning"],
-      links: [{ label: "No public link", url: "#" }],
-      isPrivate: true
-    }
-  ],
+{
+name: "MediAssist — Medicine Assist Companion",
+tagline: "Dataset-driven symptom → medicine suggestion (learning project).",
+impact: [
+"Performed data preprocessing and feature mapping on structured medical datasets.",
+"Explored supervised ML workflows with attention to safer, conservative suggestions."
+],
+tech: ["Python", "Pandas", "Machine Learning"],
+links: [{ label: "No public link", url: "#" }],
+isPrivate: true
+}
+]
+
+   
+    
+   
+ 
 
   achievements: [
     {
